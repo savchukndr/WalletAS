@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 txt.setText(String.format( "%.2f", controlSum));
             }
         }else if(!x.isEmpty() && !y.isEmpty()){
-            toast = Toast.makeText(getApplicationContext(), "Йоу персик, можнотолько одно поле в один момент",
+            toast = Toast.makeText(getApplicationContext(), "Йоу персик, можно только одно поле в один момент",
                     Toast.LENGTH_LONG);
             toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();

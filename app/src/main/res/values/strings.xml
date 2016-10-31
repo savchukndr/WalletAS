@@ -7,4 +7,5 @@
     <string name="about_title">О программе</string>
     <string name="about_button">О программе</string>
     <string name="about_text">Программа для расчёта\nваших денег.\nСоздал:\nАндрей Савчук\n2016</string>
+    <string name="title_activity_walet">WaletActivity</string>
 </resources>
