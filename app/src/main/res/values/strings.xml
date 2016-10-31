@@ -3,4 +3,8 @@
     <string name="calculate_button">Рассчитать</string>
     <string name="input_amount">Введите сумму</string>
     <string name="input_delAmount">Введите растраты</string>
+    <string name="null_button">Обнулить</string>
+    <string name="about_title">О программе</string>
+    <string name="about_button">О программе</string>
+    <string name="about_text">Программа для расчёта\nваших денег.\nСоздал:\nАндрей Савчук\n2016</string>
 </resources>

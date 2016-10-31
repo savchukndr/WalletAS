@@ -13,42 +13,61 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="numberDecimal"
         android:text=""
-        android:hint="@string/input_delAmount"
+        android:hint="@string/input_amount"
         android:ems="10"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="22dp"
-        android:id="@+id/delEditText"/>
+        android:id="@+id/addEditText"/>
 
     <TextView
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="200dp"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/amount_view"
         android:textSize="30sp"/>
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/input_delAmount"
+        android:ems="10"
+        android:layout_marginTop="16dp"
+        android:id="@+id/delEditText"
+        android:layout_below="@+id/addEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
     <Button
         android:text="@string/calculate_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="22dp"
         android:id="@+id/countButton"
-        android:onClick="onClick"/>
+        android:onClick="onClick"
+        android:layout_above="@+id/delEditText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Button
+        android:text="@string/null_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:hint="@string/input_amount"
-        android:ems="10"
-        android:layout_marginTop="16dp"
-        android:id="@+id/addEditText"
-        android:layout_below="@+id/delEditText"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/nullButton"
+        android:onClick="onClick"
+        android:layout_alignBottom="@+id/delEditText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="@string/about_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/aboutButton"
+        android:onClick="onClick"/>
 </RelativeLayout>
