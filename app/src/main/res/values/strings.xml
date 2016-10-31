@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WalletAS</string>
+    <string name="calculate_button">Рассчитать</string>
+    <string name="input_amount">Введите сумму</string>
+    <string name="input_delAmount">Введите растраты</string>
+</resources>
